@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    font-family: Inter;
+    color: rgb(54, 54, 59);
+}
+
+#nav-container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 12px 36px;
+}
+
+#logo-link {
+    text-decoration: none;
+}
+
+#logo {
+
+    display: flex;
+    align-items: center;
+
+}
+
+#logo-img {
+    height: 39px;
+}
+
+#logo-name {
+    padding-left: 15px;
+    color: rgb(54, 54, 59);
+}
+
+.nav-item{
+    margin-left: auto;
+    line-height: 86px;
+    margin-right: 38px;
+}
+
+.nav-link {
+    color: rgb(44, 44, 56);
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 49px;
+    background: rgb(44, 44, 56);
+    margin-top: -34px;
+    transition: all 150ms ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(60, 60, 66);
+}
+
+.nav-link:hover::after {
+    width: 170px;
+    background: rgb(60, 60, 66);
+}
+
+#content-outline {
+
+    max-width: 850px;
+
+    border-radius: 36px;
+    box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.75);
+    margin: 35px auto;
+
+}
+
+#content {
+    box-sizing: border-box;
+    padding: 36px;
+    width: 100%;
+}
+
+#banner {
+    margin-top: 55px;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-radius: 45px;
+}
